@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Notable&display=swap');
+
+
+
+.title {
+    color: darkred;
+    font-weight: bold;
+    font-size: 85px;
+    text-align: center;
+    background-color: gold;
+    font-family: 'Anton', sans-serif;
+   
+}
+
+.title2 {
+    color: yellow;
+    font-weight: bold;
+    font-size: 85px;
+    text-align: center;
+   
+}
+
+.title3 {
+    color: aqua;
+    font-weight: bold;
+    font-size: 85px;
+    text-align: center;
+}
+.titles {
+    color: darkblue;
+    font-weight: bold;
+    font-size: 85px;
+    text-align: center;
+    border-bottom: 24px  blue;
+}
+
+
+body, html {
+  height: 100%;
+}
+
+.bg {
+  background-image: url(img/snowboardingback.jpg);
+  height: 100%;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+.ni {
+  background-image: url(img/sportsback.jpg);
+  height: 100%;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+.link {
+    color: ghostwhite;
+    font-size: 64px;
+    display: block;
+    text-align: center;
+    margin-top: auto;
+  
+}
+    
+.link:hover {
+   background-color: aliceblue
+}
+    
+    
+
+
+.ai {
+  background-image: url(img/Rugbyback.jpg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+    
+  .gi {
+  background-image: url(img/cricketbacc.jpg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    }
+
+ .fi {
+  background-image: url(img/Basketballbackk.jpg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+      }
+
+.snowboarding {
+padding-bottom: 100px;
+}
+
+.back {
+    display: inline;
+    background-color: darkslateblue;
+    
+}
+
+.back:hover {
+    background-color: white;
+    font-family: 'Notable', sans-serif;
+
+}
+
+
+.next {
+    margin-left: 1390px;
+    display: inline;
+    color: red;
+    background-color: darkslateblue;
+    font-size: 24px
+}
+
+.next:hover {
+   background-color: white;
+    font-family: 'Notable', sans-serif;
+    font-size: 17px;
+
+}
+
+.snowexplain {
+    font-size: 36px;
+    color: darkblue;
+    border: 23px double black;
+    background-color: whitesmoke
+    
+}
+
+.rugexplain {
+    font-size: 36px;
+    color: yellow;
+    border: 5px dotted white;    
+}
+     
+.ballexplain {
+    font-size: 36px;
+    color: aqua;
+    border: 4px dashed gold;
+}
+
+
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+    font-family: 'Notable', sans-serif;
+
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+  
+
+}
+
+.topnav .icon {
+  display: none;
+}
